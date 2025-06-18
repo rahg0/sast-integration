@@ -6,3 +6,7 @@ global:
     - './**/*.unit.js'
     - './**/*.int.ts'
     - './**/*.unit.ts'
+
+sast:
+   excluded_paths:
+      - './**/*.unit.js'
