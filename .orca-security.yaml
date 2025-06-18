@@ -1,0 +1,8 @@
+global:
+  excluded_paths:
+    - './**/*.spec.ts' # mocha tests
+    - './**/*.spec.js'
+    - './**/*.int.js' # jest tests
+    - './**/*.unit.js'
+    - './**/*.int.ts'
+    - './**/*.unit.ts'
