@@ -9,4 +9,4 @@ global:
 
 sast:
    excluded_paths:
-      - './**/*.unit.js'
+      - '**/*.unit.js'
