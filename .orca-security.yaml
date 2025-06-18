@@ -1,12 +1,13 @@
 global:
   excluded_paths:
+    - '**/*shop.ts'
     - './**/*.spec.ts' # mocha tests
     - './**/*.spec.js'
     - './**/*.int.js' # jest tests
-    - './**/*.unit.js'
+    - '**/*.unit.js'
     - './**/*.int.ts'
     - './**/*.unit.ts'
 
 sast:
    excluded_paths:
-      - '**/*.unit.js'
+      - './**/*.unit.js'
