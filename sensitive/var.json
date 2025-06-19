@@ -1,0 +1,9 @@
+# Testing on AWS Key detection
+
+# changes to key and id
+# AWS Access Key ID
+access_key=AKIAT4YXF26MUTSLJB14
+
+# AWS Access Key
+secret_key=FVuNAXERiOct/SZT+zdmIatvXnvfg8gkI8CP2jiq
+AWS_SECRET_ACCESS_KEY = "AKIALALEMEL43EEXAMPL"
