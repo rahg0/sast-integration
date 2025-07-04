@@ -12,3 +12,13 @@ global:
 sast:
    excluded_paths:
       - './**/*.unit.js'
+
+secret_detection:
+  # Hardcoded secrets to ignore
+  excluded_secrets:
+    - test_11111d
+    - TEST_SECRET_123
+
+  # Ignore secrets, by their hash representation (The secret hash can be found in the scan JSON response)
+  excluded_finding_hashes:
+    - 96a8784c33975dda1775fdb454149f3417e3758766c78f9662ec3e84125a5dcf
