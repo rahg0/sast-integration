@@ -25,6 +25,8 @@ public class LoggingTestCase {
     logger.info("We have a  DISCOVERY CreditCard:6011325170145341, and another DISCOVERY CreditCard:5546560116842725 , we also have a CVV:234");
     logger.info("We have a  JCB15 CreditCard:180090199028005, and another JCB15 CreditCard:210027731854401 , we also have a CVV:234");
     logger.info("We have a  VISA13 CreditCard:4556776615749, and another VISA13 CreditCard:4532210570626 , we also have a CVV:234");
+    logger.info("We have a  JCB15 CreditCard:180090199028005, and another JCB15 CreditCard:210027731854401 , we also have a CVV:234");
+    logger.info("We have a  VISA13 CreditCard:4556776615749, and another VISA13 CreditCard:4532210570626 , we also have a CVV:234");
     logger.warn("JWT is here Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c");
 
 
